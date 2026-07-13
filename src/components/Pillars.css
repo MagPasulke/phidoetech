@@ -1,0 +1,113 @@
+.pillars__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+    margin-top: 3rem;
+}
+
+.pillar-card {
+    position: relative;
+    background: var(--color-bg);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-lg);
+    padding: 2.4rem 2.2rem;
+    box-shadow: var(--shadow-card);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    overflow: hidden;
+}
+
+.pillar-card::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+}
+
+.pillar-card--accent::before {
+    background: var(--color-accent);
+}
+
+.pillar-card--gold::before {
+    background: var(--color-gold);
+}
+
+.pillar-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.pillar-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: var(--radius-md);
+    margin-bottom: 1.4rem;
+    font-size: 1.5rem;
+}
+
+.pillar-card--accent .pillar-card__icon {
+    background: rgba(10, 110, 209, 0.1);
+    color: var(--color-accent);
+}
+
+.pillar-card--gold .pillar-card__icon {
+    background: rgba(177, 43, 40, 0.1);
+    color: var(--color-gold);
+}
+
+.pillar-card__badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-ink-soft);
+    margin-bottom: 0.5rem;
+}
+
+.pillar-card__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.pillar-card__intro {
+    color: var(--color-ink-soft);
+    margin-bottom: 1.6rem;
+}
+
+.pillar-card__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.85rem;
+}
+
+.pillar-card__list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    font-size: 0.98rem;
+}
+
+.pillar-card__check {
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+    font-size: 1rem;
+}
+
+.pillar-card--accent .pillar-card__check {
+    color: var(--color-accent);
+}
+
+.pillar-card--gold .pillar-card__check {
+    color: var(--color-gold);
+}
+
+@media (max-width: 860px) {
+    .pillars__grid {
+        grid-template-columns: 1fr;
+    }
+}

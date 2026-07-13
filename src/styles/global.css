@@ -1,0 +1,128 @@
+/* ============================================================
+   Global styles – Porsche-inspired typography + Fiori spacing
+   ============================================================ */
+
+/* Porsche Next (Design System CDN) mit Fallback auf 72 (SAP) */
+@font-face {
+    font-family: 'Porsche Next';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://cdn.ui.porsche.com/porsche-design-system/fonts/porsche-next-w-la-regular.min.9d1a56.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Porsche Next';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('https://cdn.ui.porsche.com/porsche-design-system/fonts/porsche-next-w-la-semi-bold.min.b6b148.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Porsche Next';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://cdn.ui.porsche.com/porsche-design-system/fonts/porsche-next-w-la-bold.min.2e07d7.woff2') format('woff2');
+}
+
+:root {
+    --pds-font:
+        'Porsche Next', '72', '72full', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Helvetica, Arial, sans-serif;
+
+    /* Farbpalette – Porsche neutral + SAP Fiori Akzent */
+    --color-bg: #ffffff;
+    --color-bg-subtle: #f4f4f4;
+    --color-bg-dark: #0e1418;
+    --color-ink: #0e1418;
+    --color-ink-soft: #4a5157;
+    --color-line: #e3e3e3;
+    --color-accent: #0a6ed1;
+    /* Fiori Blau */
+    --color-accent-dark: #085caf;
+    --color-gold: #b12b28;
+    /* Porsche Rot als sekundärer Akzent */
+
+    --radius-lg: 18px;
+    --radius-md: 12px;
+    --shadow-card: 0 8px 30px rgba(14, 20, 24, 0.08);
+    --shadow-card-hover: 0 16px 44px rgba(14, 20, 24, 0.14);
+
+    --maxw: 1180px;
+    --space-section: clamp(4rem, 9vw, 8rem);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: var(--pds-font);
+    color: var(--color-ink);
+    background: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--pds-font);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: min(100% - 2.5rem, var(--maxw));
+    margin-inline: auto;
+}
+
+.section {
+    padding-block: var(--space-section);
+}
+
+.eyebrow {
+    display: inline-block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+}
+
+.section-heading {
+    font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+    margin-bottom: 0.75rem;
+}
+
+.section-sub {
+    font-size: clamp(1rem, 1.4vw, 1.18rem);
+    color: var(--color-ink-soft);
+    max-width: 60ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
