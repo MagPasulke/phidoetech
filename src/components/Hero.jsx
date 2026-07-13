@@ -32,18 +32,12 @@ export default function Hero() {
                     </div>
 
                     <dl className="hero__stats">
-                        <div>
-                            <dt>10+</dt>
-                            <dd>Years SAP</dd>
-                        </div>
-                        <div>
-                            <dt>S/4HANA</dt>
-                            <dd>&amp; BTP</dd>
-                        </div>
-                        <div>
-                            <dt>ABAP · CAP · UI5</dt>
-                            <dd>Full stack</dd>
-                        </div>
+                        {t.hero.stats.map((stat) => (
+                            <div key={stat.value}>
+                                <dt>{stat.value}</dt>
+                                <dd>{stat.label}</dd>
+                            </div>
+                        ))}
                     </dl>
                 </div>
 
