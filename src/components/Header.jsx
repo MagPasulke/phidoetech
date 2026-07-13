@@ -15,7 +15,6 @@ export default function Header() {
 
                 <nav className="site-nav" aria-label="Primary">
                     <a href="#offering">{t.nav.offerings}</a>
-                    <a href="#about">{t.nav.about}</a>
                     <a href="#contact">{t.nav.contact}</a>
                 </nav>
 

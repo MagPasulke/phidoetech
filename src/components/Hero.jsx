@@ -20,6 +20,7 @@ export default function Hero() {
                         ))}
                     </h1>
                     <p className="hero__subtitle">{t.hero.subtitle}</p>
+                    <p className="hero__strength">{t.hero.strength}</p>
 
                     <div className="hero__actions">
                         <Button design="Emphasized" icon="email" onClick={() => scrollTo('contact')}>

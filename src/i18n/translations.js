@@ -4,14 +4,15 @@ export const translations = {
         langButtonAria: 'Switch to English',
         nav: {
             offerings: 'Angebot',
-            about: 'Über mich',
             contact: 'Kontakt'
         },
         hero: {
             eyebrow: 'SAP Developer & Solutions Architect',
             title: 'Enterprise SAP Lösungen,\ndie echten Business-Wert schaffen.',
             subtitle:
-                'Über 10 Jahre Erfahrung in SAP-Technologien und Logistik. Von der Architektur bis zur Hands-on-Entwicklung auf S/4HANA und der SAP Business Technology Platform.',
+                'Über 10 Jahre Erfahrung in SAP-Technologien und Logistik – inklusive funktionalem Wissen in SAP WM und EWM. Ich entwerfe Lösungsarchitekturen für Business-Anwendungen auf S/4HANA und der SAP Business Technology Platform (BTP).',
+            strength:
+                'Meine Stärke ist Vielseitigkeit über Rollen und Abstraktionsebenen hinweg: von Hands-on-Entwicklung über die Leitung von Entwicklungs- und Architekturprojekten bis zum Mentoring – tiefes technisches Know-how gepaart mit der Fähigkeit, Teams auf Augenhöhe zu führen.',
             ctaPrimary: 'Zusammenarbeit anfragen',
             ctaSecondary: 'Angebot entdecken',
             portraitAlt: 'Porträtfoto – SAP Developer & Solutions Architect'
@@ -47,26 +48,6 @@ export const translations = {
                 ]
             }
         },
-        about: {
-            heading: 'Über mich',
-            lead:
-                'Ich entwerfe und liefere Enterprise-Systeme, die echten Business-Wert schaffen.',
-            body:
-                'Meine Expertise umfasst ein breites Spektrum an Technologien im SAP-Universum inklusive funktionalem Wissen in SAP WM und EWM. Ich entwerfe Lösungsarchitekturen für Business-Anwendungen auf S/4HANA und der SAP Business Technology Platform (BTP).',
-            strengthTitle: 'Meine Stärke: Vielseitigkeit',
-            strength:
-                'Von Hands-on-Entwicklung über die Leitung von Entwicklungs- und Architektur-(Teil-)Projekten bis zum Mentoring von Teammitgliedern. Ich verbinde tiefes technisches Know-how mit der Fähigkeit, Teams auf Augenhöhe zu führen und auszurichten.',
-            skillsTitle: 'Technische Expertise',
-            skills: [
-                'ABAP (Classic, Cloud, RAP)',
-                'OData APIs & Fiori (Elements)',
-                'CAPM (Node.js)',
-                'App2App Integration (API Management, CPI, OData, SOAP, ALE, n8n)',
-                'MCP Server für SAP-Integration',
-                'Agentic Flows im SAP-Kontext',
-                'S/4HANA Transformation & Modernisierung'
-            ]
-        },
         contact: {
             heading: 'Lassen Sie uns sprechen',
             body:
@@ -84,14 +65,15 @@ export const translations = {
         langButtonAria: 'Zu Deutsch wechseln',
         nav: {
             offerings: 'Offering',
-            about: 'About',
             contact: 'Contact'
         },
         hero: {
             eyebrow: 'SAP Developer & Solutions Architect',
             title: 'Enterprise SAP systems\nthat drive real business value.',
             subtitle:
-                'Over 10 years of experience in SAP technologies and logistics solutions. From architecture to hands-on development on S/4HANA and the SAP Business Technology Platform.',
+                'Over 10 years of experience in SAP technologies and logistics – including functional knowledge in SAP WM and EWM. I design solution architectures for business applications on S/4HANA and the SAP Business Technology Platform (BTP).',
+            strength:
+                'My strength is versatility across roles and abstraction levels: from hands-on development to leading development and architecture projects and mentoring team members – deep technical know-how paired with the ability to lead teams on eye-level.',
             ctaPrimary: 'Start a conversation',
             ctaSecondary: 'Explore the offering',
             portraitAlt: 'Portrait photo – SAP Developer & Solutions Architect'
@@ -126,26 +108,6 @@ export const translations = {
                     'AI integration & MCP servers for SAP'
                 ]
             }
-        },
-        about: {
-            heading: 'About me',
-            lead:
-                'I architect and deliver enterprise systems that drive real business value.',
-            body:
-                'My expertise spans a wide range of technologies within the SAP universe including functional knowledge in SAP WM and EWM. I design solution architectures for business applications on S/4HANA and the SAP Business Technology Platform (BTP).',
-            strengthTitle: 'My strength: versatility',
-            strength:
-                'From hands-on development to leading development and architecture (sub)projects, and mentoring team members to grow their capabilities. I combine deep technical knowledge with a natural ability to lead and align teams on eye-level.',
-            skillsTitle: 'Technical expertise',
-            skills: [
-                'ABAP (classic, cloud, RAP)',
-                'OData APIs & Fiori (Elements)',
-                'CAPM (Node.js)',
-                'App2App integration (API Management, CPI, OData, SOAP, ALE, n8n)',
-                'MCP servers for SAP integration',
-                'Agentic flows in SAP context',
-                'S/4HANA transformation & modernization'
-            ]
         },
         contact: {
             heading: 'Let’s talk',
