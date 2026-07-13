@@ -9,8 +9,11 @@ export const translations = {
         hero: {
             eyebrow: 'SAP Developer & Solutions Architect',
             title: 'Enterprise SAP Lösungen,\ndie echten Mehrwert schaffen.',
-            subtitle:
-                'Über 10 Jahre Erfahrung in SAP Development & Architektur. Funktionales Wissen in SAP WM, EWM, IM, SD. Ich entwerfe Lösungsarchitekturen für Business-Anwendungen auf S/4HANA und der SAP Business Technology Platform (BTP).',
+            lead: 'Über 10 Jahre Erfahrung in SAP Development & Architektur.',
+            secondary:
+                'Lösungsarchitekturen für Business-Anwendungen auf S/4HANA und der SAP Business Technology Platform (BTP).',
+            modulesLabel: 'Funktionales Wissen',
+            modules: ['WM', 'EWM', 'IM', 'SD'],
             strength:
                 'Meine Stärke ist Vielseitigkeit über Rollen und Abstraktionsebenen hinweg: von Hands-on-Entwicklung über die Leitung von Entwicklungs- und Architekturprojekten bis zum Mentoring – tiefes technisches Know-how gepaart mit der Fähigkeit, Teams auf Augenhöhe zu führen.',
             ctaPrimary: 'Zusammenarbeit anfragen',
@@ -75,8 +78,11 @@ export const translations = {
         hero: {
             eyebrow: 'SAP Developer & Solutions Architect',
             title: 'Enterprise SAP systems\nthat drive real business value.',
-            subtitle:
-                'Over 10 years of experience in SAP technologies and logistics – including functional knowledge in SAP WM and EWM. I design solution architectures for business applications on S/4HANA and the SAP Business Technology Platform (BTP).',
+            lead: 'Over 10 years of experience in SAP development & architecture.',
+            secondary:
+                'Solution architectures for business applications on S/4HANA and the SAP Business Technology Platform (BTP).',
+            modulesLabel: 'Functional knowledge',
+            modules: ['WM', 'EWM', 'IM', 'SD'],
             strength:
                 'My strength is versatility across roles and abstraction levels: from hands-on development to leading development and architecture projects and mentoring team members – deep technical know-how paired with the ability to lead teams on eye-level.',
             ctaPrimary: 'Start a conversation',

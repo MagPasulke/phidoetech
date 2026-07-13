@@ -19,8 +19,19 @@ export default function Hero() {
                             </span>
                         ))}
                     </h1>
-                    <p className="hero__subtitle">{t.hero.subtitle}</p>
-                    <p className="hero__strength">{t.hero.strength}</p>
+                    <p className="hero__lead">{t.hero.lead}</p>
+                    <p className="hero__secondary">{t.hero.secondary}</p>
+
+                    <div className="hero__modules">
+                        <span className="hero__modules-label">{t.hero.modulesLabel}</span>
+                        <ul className="hero__chips">
+                            {t.hero.modules.map((module) => (
+                                <li key={module} className="hero__chip">
+                                    {module}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
 
                     <div className="hero__actions">
                         <Button design="Emphasized" icon="email" onClick={() => scrollTo('contact')}>
@@ -43,6 +54,7 @@ export default function Hero() {
 
                 <div className="hero__portrait">
                     <img src={portrait} alt={t.hero.portraitAlt} loading="eager" />
+                    <p className="hero__strength">{t.hero.strength}</p>
                 </div>
             </div>
         </section>
