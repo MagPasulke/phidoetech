@@ -33,15 +33,6 @@ export default function Hero() {
                         </ul>
                     </div>
 
-                    <div className="hero__actions">
-                        <Button design="Emphasized" icon="email" onClick={() => scrollTo('contact')}>
-                            {t.hero.ctaPrimary}
-                        </Button>
-                        <Button design="Transparent" icon="slim-arrow-down" onClick={() => scrollTo('offering')}>
-                            {t.hero.ctaSecondary}
-                        </Button>
-                    </div>
-
                     <dl className="hero__stats">
                         {t.hero.stats.map((stat) => (
                             <div key={stat.value}>
@@ -50,6 +41,15 @@ export default function Hero() {
                             </div>
                         ))}
                     </dl>
+
+                    <div className="hero__actions">
+                        <Button design="Emphasized" icon="email" onClick={() => scrollTo('contact')}>
+                            {t.hero.ctaPrimary}
+                        </Button>
+                        <Button design="Transparent" icon="slim-arrow-down" onClick={() => scrollTo('offering')}>
+                            {t.hero.ctaSecondary}
+                        </Button>
+                    </div>
                 </div>
 
                 <div className="hero__portrait">
