@@ -1,6 +1,6 @@
 .pillars__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
     margin-top: 3rem;
 }
@@ -27,6 +27,10 @@
     background: var(--color-accent);
 }
 
+.pillar-card--teal::before {
+    background: var(--color-teal);
+}
+
 .pillar-card--gold::before {
     background: var(--color-gold);
 }
@@ -50,6 +54,11 @@
 .pillar-card--accent .pillar-card__icon {
     background: rgba(10, 110, 209, 0.1);
     color: var(--color-accent);
+}
+
+.pillar-card--teal .pillar-card__icon {
+    background: rgba(10, 138, 125, 0.1);
+    color: var(--color-teal);
 }
 
 .pillar-card--gold .pillar-card__icon {
@@ -100,6 +109,10 @@
 
 .pillar-card--accent .pillar-card__check {
     color: var(--color-accent);
+}
+
+.pillar-card--teal .pillar-card__check {
+    color: var(--color-teal);
 }
 
 .pillar-card--gold .pillar-card__check {

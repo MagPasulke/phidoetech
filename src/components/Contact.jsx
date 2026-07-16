@@ -38,9 +38,10 @@ export default function Contact() {
                     <Button
                         design="Emphasized"
                         icon="email"
+                        aria-label={`${t.contact.cta}: ${EMAIL}`}
                         onClick={() => (window.location.href = `mailto:${EMAIL}`)}
                     >
-                        {t.contact.cta}
+                        {EMAIL}
                     </Button>
                 </div>
 

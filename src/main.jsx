@@ -7,6 +7,8 @@ import '@ui5/webcomponents-icons/dist/world.js';
 import '@ui5/webcomponents-icons/dist/email.js';
 import '@ui5/webcomponents-icons/dist/slim-arrow-down.js';
 import '@ui5/webcomponents-icons/dist/workflow-tasks.js';
+import '@ui5/webcomponents-icons/dist/org-chart.js';
+import '@ui5/webcomponents-icons/dist/collaborate.js';
 import '@ui5/webcomponents-icons/dist/source-code.js';
 import '@ui5/webcomponents-icons/dist/accept.js';
 import '@ui5/webcomponents-icons/dist/checklist-item.js';
