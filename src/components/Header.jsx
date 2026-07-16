@@ -9,7 +9,7 @@ export default function Header() {
         <header className="site-header">
             <div className="container site-header__inner">
                 <a href="#top" className="brand" aria-label="Home">
-                    <span className="brand__mark">SAP</span>
+                    <span className="brand__mark">PD</span>
                     <span className="brand__text">Developer &amp; Architect</span>
                 </a>
 
