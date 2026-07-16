@@ -4,7 +4,7 @@ import './Pillars.css';
 
 export default function Pillars() {
     const { t } = useLanguage();
-    const { strategy, handson } = t.pillars;
+    const { architect, translate, develop } = t.pillars;
 
     return (
         <section className="section pillars" id="offering">
@@ -14,8 +14,9 @@ export default function Pillars() {
                 <p className="section-sub">{t.pillars.subheading}</p>
 
                 <div className="pillars__grid">
-                    <PillarCard data={strategy} icon="workflow-tasks" accent="accent" />
-                    <PillarCard data={handson} icon="source-code" accent="gold" />
+                    <PillarCard data={architect} icon="org-chart" accent="accent" />
+                    <PillarCard data={translate} icon="collaborate" accent="teal" />
+                    <PillarCard data={develop} icon="source-code" accent="gold" />
                 </div>
             </div>
         </section>

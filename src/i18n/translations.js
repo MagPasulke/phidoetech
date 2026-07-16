@@ -27,32 +27,39 @@ export const translations = {
             ]
         },
         pillars: {
-            heading: 'Zwei Schwerpunkte – ein Partner',
+            heading: 'Konzipieren. Übersetzen. Entwickeln.',
             subheading:
                 'Vielseitigkeit über Rollen und Abstraktionsebenen hinweg: von der Architektur bis zur Codezeile.',
-            strategy: {
-                badge: 'Beratung & Enablement',
-                title: 'Strategie, Prozesse & Governance',
+            architect: {
+                badge: 'Architektur & Projektleitung',
+                title: 'Ich konzipiere',
                 intro:
-                    'Beratung und Unterstützung dort, wo die Weichen für gute Entwicklung gestellt werden.',
+                    'Vom Zielbild zur tragfähigen Lösung. Über Systeme und Teams hinweg.',
                 items: [
-                    'Development-Prozesse & Governance',
-                    'Clean Core Strategie & Umsetzung',
-                    'Release Management im SAP-Umfeld',
-                    'Strategisches Skill-Management im Dev-Team',
-                    'Adoption von AI-basierten Development-Workflows'
+                    '(Teil-)Projektleitung von Entwicklungs- & Integrationsprojekten',
+                    'Design plattformübergreifender Enterprise-IT-Lösungen',
+                    'Technische Zielarchitekturen & Roadmaps'
                 ]
             },
-            handson: {
+            translate: {
+                badge: 'Vermittlung & Kommunikation',
+                title: 'Ich übersetze',
+                intro:
+                    'Ich verbinde Welten, die selten dieselbe Sprache sprechen.',
+                items: [
+                    'Brücke zwischen SAP- und Non-SAP-Dev-Teams',
+                    'Technische Sachverhalte für die Führungsebene übersetzt',
+                    'Anforderungen und Machbarkeit in Einklang gebracht'
+                ]
+            },
+            develop: {
                 badge: 'Hands-on Development',
-                title: 'Moderne, Cloud-ready Entwicklung',
+                title: 'Ich entwickle',
                 intro:
                     'Modern, clean und cloud-ready – von der Schnittstelle bis zur fertigen Fiori-App.',
                 items: [
-                    'Modernes, Cloud-ready ABAP (Classic, Cloud, RAP)',
-                    'BTP CAP (Node.js) für Cloud-native Development',
-                    'UI5 & Fiori Elements Anwendungen',
-                    'Interface Design & Development (OData, SOAP, APIs)',
+                    'Moderne ABAP (RAP) & BTP CAP (Node.js) Entwicklung',
+                    'Interface Design & Development (OData, MQTT, SOAP, IDoc/ALE, Event Driven)',
                     'AI-Integration & MCP-Server für SAP'
                 ]
             }
@@ -105,32 +112,39 @@ export const translations = {
             ]
         },
         pillars: {
-            heading: 'Two focus areas – one partner',
+            heading: 'Architect. Translate. Develop.',
             subheading:
                 'Versatility across roles and abstraction levels: from strategy down to the line of code.',
-            strategy: {
-                badge: 'Consulting & Enablement',
-                title: 'Strategy, Processes & Governance',
+            architect: {
+                badge: 'Architecture & Delivery',
+                title: 'I architect',
                 intro:
-                    'Consulting and support where the course for good development is set.',
+                    'From the target picture to a solution that holds. Across systems and teams.',
                 items: [
-                    'Development processes & governance',
-                    'Clean Core strategy & implementation',
-                    'Release management in the SAP landscape',
-                    'Strategic skill management in dev teams',
-                    'Adoption of AI-based development workflows'
+                    '(Partial) lead of development & integration projects',
+                    'Design of cross-platform enterprise IT solutions',
+                    'Technical target architectures & roadmaps'
                 ]
             },
-            handson: {
+            translate: {
+                badge: 'Translation & Alignment',
+                title: 'I translate',
+                intro:
+                    'I connect worlds that rarely speak the same language.',
+                items: [
+                    'Bridge between SAP and non-SAP dev teams',
+                    'Technical topics translated for leadership',
+                    'Requirements and feasibility brought into balance'
+                ]
+            },
+            develop: {
                 badge: 'Hands-on Development',
-                title: 'Modern, cloud-ready development',
+                title: 'I develop',
                 intro:
                     'Modern, clean and cloud-ready – from the interface to the finished Fiori app.',
                 items: [
-                    'Modern, cloud-ready ABAP (classic, cloud, RAP)',
-                    'BTP CAP (Node.js) for cloud-native development',
-                    'UI5 & Fiori Elements applications',
-                    'Interface design & development (OData, SOAP, APIs)',
+                    'Modern ABAP (RAP) & BTP CAP (Node.js) development',
+                    'Interface design & development (OData, MQTT, SOAP, IDoc/ALE, event-driven)',
                     'AI integration & MCP servers for SAP'
                 ]
             }
