@@ -79,9 +79,17 @@ export const translations = {
             cta: 'E-Mail schreiben',
             linkedin: 'LinkedIn'
         },
+        impressum: {
+            eyebrow: 'Rechtliches',
+            heading: 'Impressum',
+            providerLabel: 'Angaben gemäß § 5 DDG',
+            contactLabel: 'Kontakt',
+            back: 'Zurück zur Startseite'
+        },
         footer: {
             role: 'SAP Developer & Solutions Architect',
-            rights: 'Alle Rechte vorbehalten.'
+            rights: 'Alle Rechte vorbehalten.',
+            impressum: 'Impressum'
         }
     },
     en: {
@@ -164,9 +172,17 @@ export const translations = {
             cta: 'Write an email',
             linkedin: 'LinkedIn'
         },
+        impressum: {
+            eyebrow: 'Legal',
+            heading: 'Legal Notice',
+            providerLabel: 'Information pursuant to § 5 DDG',
+            contactLabel: 'Contact',
+            back: 'Back to home'
+        },
         footer: {
             role: 'SAP Developer & Solutions Architect',
-            rights: 'All rights reserved.'
+            rights: 'All rights reserved.',
+            impressum: 'Legal Notice'
         }
     }
 };

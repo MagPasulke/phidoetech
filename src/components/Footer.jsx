@@ -13,6 +13,8 @@ export default function Footer() {
                 </div>
                 <p className="site-footer__legal">
                     © {year} · {t.footer.rights}
+                    <span className="site-footer__sep" aria-hidden="true">·</span>
+                    <a className="site-footer__link" href="#/impressum">{t.footer.impressum}</a>
                 </p>
             </div>
         </footer>
