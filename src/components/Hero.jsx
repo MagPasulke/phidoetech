@@ -19,7 +19,28 @@ export default function Hero() {
                             </span>
                         ))}
                     </h1>
-                    <p className="hero__subtitle">{t.hero.subtitle}</p>
+                    <p className="hero__lead">{t.hero.lead}</p>
+                    <p className="hero__secondary">{t.hero.secondary}</p>
+
+                    <div className="hero__modules">
+                        <span className="hero__modules-label">{t.hero.modulesLabel}</span>
+                        <ul className="hero__chips">
+                            {t.hero.modules.map((module) => (
+                                <li key={module} className="hero__chip">
+                                    {module}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <dl className="hero__stats">
+                        {t.hero.stats.map((stat) => (
+                            <div key={stat.value}>
+                                <dt>{stat.value}</dt>
+                                <dd>{stat.label}</dd>
+                            </div>
+                        ))}
+                    </dl>
 
                     <div className="hero__actions">
                         <Button design="Emphasized" icon="email" onClick={() => scrollTo('contact')}>
@@ -29,25 +50,11 @@ export default function Hero() {
                             {t.hero.ctaSecondary}
                         </Button>
                     </div>
-
-                    <dl className="hero__stats">
-                        <div>
-                            <dt>10+</dt>
-                            <dd>Years SAP</dd>
-                        </div>
-                        <div>
-                            <dt>S/4HANA</dt>
-                            <dd>&amp; BTP</dd>
-                        </div>
-                        <div>
-                            <dt>ABAP · CAP · UI5</dt>
-                            <dd>Full stack</dd>
-                        </div>
-                    </dl>
                 </div>
 
                 <div className="hero__portrait">
                     <img src={portrait} alt={t.hero.portraitAlt} loading="eager" />
+                    <p className="hero__strength">{t.hero.strength}</p>
                 </div>
             </div>
         </section>

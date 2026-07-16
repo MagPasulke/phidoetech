@@ -3,12 +3,8 @@ import { translations } from './translations.js';
 
 const LanguageContext = createContext(null);
 
-const getInitialLang = () => {
-    if (typeof navigator !== 'undefined' && navigator.language) {
-        return navigator.language.toLowerCase().startsWith('de') ? 'de' : 'en';
-    }
-    return 'de';
-};
+// Standardsprache ist immer Deutsch
+const getInitialLang = () => 'de';
 
 export function LanguageProvider({ children }) {
     const [lang, setLang] = useState(getInitialLang);
