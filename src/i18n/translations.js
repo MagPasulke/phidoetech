@@ -4,6 +4,7 @@ export const translations = {
         langButtonAria: 'Switch to English',
         nav: {
             offerings: 'Mein Beitrag',
+            blogs: 'Blog',
             contact: 'Kontakt'
         },
         hero: {
@@ -56,6 +57,14 @@ export const translations = {
                 ]
             }
         },
+        blogs: {
+            eyebrow: 'Blog & Artikel',
+            heading: 'Von der Werkbank',
+            subheading: 'Experimente und Tech-Demos.',
+            filterAll: 'Alle',
+            filterLabel: 'Nach Thema filtern',
+            readCta: 'Auf LinkedIn lesen'
+        },
         contact: {
             heading: 'Lassen Sie uns sprechen',
             body:
@@ -73,6 +82,7 @@ export const translations = {
         langButtonAria: 'Zu Deutsch wechseln',
         nav: {
             offerings: 'How I contribute',
+            blogs: 'Blog',
             contact: 'Contact'
         },
         hero: {
@@ -125,6 +135,14 @@ export const translations = {
                 ]
             }
         },
+        blogs: {
+            eyebrow: 'Blog & Articles',
+            heading: 'From the Workbench',
+            subheading: 'Experiments and tech demos.',
+            filterAll: 'All',
+            filterLabel: 'Filter by topic',
+            readCta: 'Read on LinkedIn'
+        },
         contact: {
             heading: 'Let’s talk',
             body:
@@ -138,3 +156,50 @@ export const translations = {
         }
     }
 };
+
+// Blog-Einträge sind sprachneutral (Titel/URL/Tags bleiben in Originalsprache).
+// Tags stammen aus einem festen Vokabular; die Filterleiste wird daraus abgeleitet.
+// Titel aus den LinkedIn-Slugs abgeleitet – bei Bedarf an die Originaltitel anpassen.
+// Reihenfolge der Einträge = Anzeigereihenfolge auf der Seite (einfach umsortieren).
+export const blogPosts = [
+    {
+        title: 'Off-Stack ABAP: A Practical Example, Pt. 2',
+        url: 'https://www.linkedin.com/pulse/off-stack-abap-practical-example-pt-2-philipp-d%C3%B6lker-od9pe/',
+        tags: ['ABAP', 'AI']
+    },
+    {
+        title: 'Off-Stack ABAP: A Practical Example',
+        url: 'https://www.linkedin.com/pulse/off-stack-abap-practical-example-philipp-d%C3%B6lker-oacze/',
+        tags: ['ABAP', 'AI']
+    },
+    {
+        title: '4 Concepts Towards AI-Assisted ABAP',
+        url: 'https://www.linkedin.com/pulse/4-concepts-towards-ai-assisted-abap-philipp-d%C3%B6lker-uljne/',
+        tags: ['AI', 'ABAP']
+    },
+    {
+        title: 'End-to-End Sandbox Setup for a SAP MCP Server on BTP',
+        url: 'https://www.linkedin.com/pulse/end-to-end-sandbox-setup-sap-mcp-server-btp-philipp-d%C3%B6lker-ghxhe/',
+        tags: ['AI', 'BTP']
+    },
+    {
+        title: 'Automating SAP Support Workflows with a Custom Agent',
+        url: 'https://www.linkedin.com/pulse/automating-sap-support-workflows-custom-agent-philipp-d%C3%B6lker-9tkue/',
+        tags: ['AI']
+    },
+    {
+        title: 'AWS SDK for ABAP: A Simple Integration Sample with S3 and SAP S/4HANA',
+        url: 'https://www.linkedin.com/pulse/aws-sdk-abap-simple-integration-sample-s3-sap-s4-hana-d%C3%B6lker-pljne/',
+        tags: ['ABAP', 'BTP']
+    },
+    {
+        title: 'I Am Procrastinating: On Technology Without Purpose',
+        url: 'https://www.linkedin.com/pulse/i-am-procrastinating-how-technology-without-purpose-philipp-d%C3%B6lker-bec3f/',
+        tags: ['AI', 'ABAP']
+    },
+    {
+        title: 'Back to Basics: Internal Enhancement Spots, BAdIs & Building Blocks',
+        url: 'https://www.linkedin.com/pulse/back-basics-internal-enhancement-spots-badis-building-d%C3%B6lker-jgjrf/',
+        tags: ['ABAP']
+    }
+];

@@ -11,6 +11,7 @@ import '@ui5/webcomponents-icons/dist/source-code.js';
 import '@ui5/webcomponents-icons/dist/accept.js';
 import '@ui5/webcomponents-icons/dist/checklist-item.js';
 import '@ui5/webcomponents-icons/dist/internet-browser.js';
+import '@ui5/webcomponents-icons/dist/slim-arrow-right.js';
 
 import App from './App.jsx';
 import { LanguageProvider } from './i18n/LanguageContext.jsx';
