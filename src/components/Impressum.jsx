@@ -3,6 +3,7 @@ import './Impressum.css';
 
 const NAME = 'Philipp Dölker';
 const STREET = 'Oberer Höhenweg 40';
+const CITY = '72250 Freudenstadt'
 const EMAIL = 'pd@philippdoelker.de';
 const PHONE = '+49 176 30792194';
 const PHONE_HREF = '+4917630792194';
@@ -26,6 +27,8 @@ export default function Impressum() {
                             {NAME}
                             <br />
                             {STREET}
+                            <br />
+                            {CITY}
                         </dd>
                     </div>
                     <div className="impressum__row">
