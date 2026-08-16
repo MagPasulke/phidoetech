@@ -4,6 +4,7 @@ export const translations = {
         langButtonAria: 'Switch to English',
         nav: {
             offerings: 'Mein Beitrag',
+            career: 'Werdegang',
             blogs: 'Blog',
             contact: 'Kontakt'
         },
@@ -64,6 +65,56 @@ export const translations = {
                 ]
             }
         },
+        career: {
+            eyebrow: 'Erfahrung im anspruchsvollen Automotive- & Beratungsumfeld',
+            heading: 'Werdegang',
+            stations: [
+                {
+                    period: '2015 – 2022',
+                    company: 'Robert Bosch GmbH',
+                    role: 'Development Lead Intralogistics',
+                    items: [
+                        'Software-Architekt für SAP Warehousing – Anwendungen im Einsatz in über 70 Werken',
+                        'Entwicklung von Standarderweiterungen, APIs, Fiori-Apps auf ECC & S/4HANA',
+                        'Steuerung & Coaching von Near- und Offshore-Teams in Indien, China und Polen'
+                    ]
+                },
+                {
+                    period: '2023',
+                    company: 'cbs Corporate Business Solutions',
+                    role: 'Senior Solution Architect',
+                    items: [
+                        'S/4HANA-Architektur & Landscape-Design für Industrieunternehmen',
+                        'Workstream Lead in S/4HANA-Transformationsprojekten',
+                        'Fokus auf den Themen Entwicklungsprozesse und S/4HANA Extensibility'
+                    ]
+                },
+                {
+                    period: '2023 – 2026',
+                    company: 'Dr. Ing. h.c. F. Porsche AG',
+                    role: 'Solutions & Software Architekt',
+                    items: [
+                        'Teilprojektleitung & Architektur der S/4HANA Code Conversion der SAP-Produktionslogistik-Landschaft',
+                        'Re-Design der SAP Release- und Deploymentprozesse',
+                        'Topic Lead: AI-assisted ABAP Development',
+                        'Entwicklung MCP-Server für S/4HANA & Cloud ALM auf der BTP'
+                    ]
+                },
+                {
+                    period: 'seit 08/2026',
+                    company: 'Freiberuflich',
+                    role: 'SAP-Entwickler & Solution Architect',
+                    now: 'Heute',
+                    items: [
+                        'Entwicklung, Architektur und (Teil-)Projektleitung auf S/4HANA und der SAP BTP/BAIP',
+                        'ABAP RAP, BTP CAP (Node.js), Fiori, Schnittstellenentwicklung, AI-Integration'
+                    ]
+                }
+            ],
+            meta: [
+                'M.Sc. Business Information Technology, HTWG Konstanz · B.Eng. Wirtschaftsingenieurwesen, DHBW Stuttgart'
+            ]
+        },
         blogs: {
             eyebrow: 'Blog & Artikel',
             heading: 'Von der Werkbank',
@@ -97,6 +148,7 @@ export const translations = {
         langButtonAria: 'Zu Deutsch wechseln',
         nav: {
             offerings: 'How I contribute',
+            career: 'Career',
             blogs: 'Blog',
             contact: 'Contact'
         },
@@ -156,6 +208,56 @@ export const translations = {
                     'AI integration & MCP servers for SAP'
                 ]
             }
+        },
+        career: {
+            eyebrow: 'Career — experience in demanding automotive & consulting environments',
+            heading: 'Where I have built.',
+            stations: [
+                {
+                    period: '2015 – 2022',
+                    company: 'Robert Bosch GmbH',
+                    role: 'Development Lead Intralogistics',
+                    items: [
+                        'Software architect for the central SAP development system – applications running in more than 70 plants',
+                        'Development coordination with an annual project budget of around € 1m',
+                        'Steering of near- and offshore teams in India, China and Poland'
+                    ]
+                },
+                {
+                    period: '2023',
+                    company: 'cbs Corporate Business Solutions',
+                    role: 'Senior Solution Architect',
+                    items: [
+                        'S/4HANA architecture & landscape design for industrial companies',
+                        'IT workstream lead in an S/4HANA transformation programme',
+                        'Accountable for data migration, authorization & security, and extensibility'
+                    ]
+                },
+                {
+                    period: '2023 – 2026',
+                    company: 'Dr. Ing. h.c. F. Porsche AG',
+                    role: 'IT & Software Architect',
+                    items: [
+                        'Sub-project lead & architect for the S/4HANA code conversion in a brownfield programme',
+                        'Re-design of release and deployment processes for a SAP production logistics landscape',
+                        'Lead Center of Practice: AI-assisted ABAP development, MCP servers for S/4HANA & Cloud ALM on BTP'
+                    ]
+                },
+                {
+                    period: 'since 08/2026',
+                    company: 'Freelance',
+                    role: 'SAP Developer & Solution Architect',
+                    now: 'Today',
+                    items: [
+                        'Freelancing full time – already active on the side since 2020',
+                        'Development, architecture and (sub-)project lead on S/4HANA and SAP BTP',
+                        'Available for development, architecture and clean core strategy engagements'
+                    ]
+                }
+            ],
+            meta: [
+                'M.Sc. Business Information Technology, HTWG Konstanz · B.Eng. Industrial Engineering, DHBW Stuttgart'
+            ]
         },
         blogs: {
             eyebrow: 'Blog & Articles',
