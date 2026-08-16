@@ -176,7 +176,7 @@ export const translations = {
             subheading:
                 'Versatility across roles and abstraction levels: from strategy down to the line of code.',
             architect: {
-                badge: 'Architecture & Delivery',
+                badge: 'Architecture & Project Leadership',
                 title: 'I architect',
                 intro:
                     'From the target picture to a solution that holds. Across systems and teams.',
@@ -210,17 +210,17 @@ export const translations = {
             }
         },
         career: {
-            eyebrow: 'Career — experience in demanding automotive & consulting environments',
-            heading: 'Where I have built.',
+            eyebrow: 'Experience in demanding automotive & consulting environments',
+            heading: 'Career',
             stations: [
                 {
                     period: '2015 – 2022',
                     company: 'Robert Bosch GmbH',
                     role: 'Development Lead Intralogistics',
                     items: [
-                        'Software architect for the central SAP development system – applications running in more than 70 plants',
-                        'Development coordination with an annual project budget of around € 1m',
-                        'Steering of near- and offshore teams in India, China and Poland'
+                        'Software architect for SAP warehousing – applications running in more than 70 plants',
+                        'Development of standard enhancements, APIs and Fiori apps on ECC & S/4HANA',
+                        'Steering & coaching of near- and offshore teams in India, China and Poland'
                     ]
                 },
                 {
@@ -229,18 +229,19 @@ export const translations = {
                     role: 'Senior Solution Architect',
                     items: [
                         'S/4HANA architecture & landscape design for industrial companies',
-                        'IT workstream lead in an S/4HANA transformation programme',
-                        'Accountable for data migration, authorization & security, and extensibility'
+                        'Workstream lead in S/4HANA transformation projects',
+                        'Focus on development processes and S/4HANA extensibility'
                     ]
                 },
                 {
                     period: '2023 – 2026',
                     company: 'Dr. Ing. h.c. F. Porsche AG',
-                    role: 'IT & Software Architect',
+                    role: 'Solutions & Software Architect',
                     items: [
-                        'Sub-project lead & architect for the S/4HANA code conversion in a brownfield programme',
-                        'Re-design of release and deployment processes for a SAP production logistics landscape',
-                        'Lead Center of Practice: AI-assisted ABAP development, MCP servers for S/4HANA & Cloud ALM on BTP'
+                        'Sub-project lead & architecture for the S/4HANA code conversion of the SAP production logistics landscape',
+                        'Re-design of the SAP release and deployment processes',
+                        'Topic lead: AI-assisted ABAP development',
+                        'Development of MCP servers for S/4HANA & Cloud ALM on BTP'
                     ]
                 },
                 {
@@ -249,9 +250,8 @@ export const translations = {
                     role: 'SAP Developer & Solution Architect',
                     now: 'Today',
                     items: [
-                        'Freelancing full time – already active on the side since 2020',
-                        'Development, architecture and (sub-)project lead on S/4HANA and SAP BTP',
-                        'Available for development, architecture and clean core strategy engagements'
+                        'Development, architecture and (sub-)project lead on S/4HANA and SAP BTP/BAIP',
+                        'ABAP RAP, BTP CAP (Node.js), Fiori, interface development, AI integration'
                     ]
                 }
             ],
