@@ -295,6 +295,11 @@ export const translations = {
 // Reihenfolge der Einträge = Anzeigereihenfolge auf der Seite (einfach umsortieren).
 export const blogPosts = [
     {
+        title: 'The Ruleset Fills Its Own Gaps: CAP MCP & CAP n8n',
+        url: 'https://www.linkedin.com/pulse/ruleset-fills-its-own-gaps-cap-mcp-cap-n8n-philipp-d%C3%B6lker-6gixf/',
+        tags: ['AI', 'BTP']
+    },
+    {
         title: 'Off-Stack ABAP: A Practical Example, Pt. 2',
         url: 'https://www.linkedin.com/pulse/off-stack-abap-practical-example-pt-2-philipp-d%C3%B6lker-od9pe/',
         tags: ['ABAP', 'AI']
