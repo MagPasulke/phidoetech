@@ -295,7 +295,7 @@ export const translations = {
 // Reihenfolge der Einträge = Anzeigereihenfolge auf der Seite (einfach umsortieren).
 export const blogPosts = [
     {
-        title: 'The Ruleset Fills Its Own Gaps: CAP MCP & CAP n8n',
+        title: 'A Ruleset that Fills Its Own Gaps: CAP MCP & CAP n8n',
         url: 'https://www.linkedin.com/pulse/ruleset-fills-its-own-gaps-cap-mcp-cap-n8n-philipp-d%C3%B6lker-6gixf/',
         tags: ['AI', 'BTP']
     },
